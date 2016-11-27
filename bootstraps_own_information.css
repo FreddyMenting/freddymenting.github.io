@@ -12,14 +12,49 @@
     background-color: green;
 }
 
-/*body#background {
-background: url (‘img/freddycarmentos3.jpg’) no-repeat 50% 50% fixed;
-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
--webkit-background-size: cover;
+.line1{
+	font-size: 30;
+	font-style: bold;
 }
-*/
-body {
-	background-image: url(img/freddycarmentos3.jpg)
+
+.line2{
+	font-size: 25;
+	font-style: bold;
 }
+
+.body1 {
+	background-image: url(img/freddycarmentos3.jpg);
+	background-size: cover;
+}
+.body2{
+	background-color: black;
+}
+
+#box1
+{
+	background-color: transparent;
+	border-color: transparent;
+}
+#profile
+{
+    width: 100%;
+    border-color: grey;
+    border: grey;
+    border-style: hidden;	
+}
+
+html,
+body,
+div,
+h1,
+p,
+a,
+.body2
+{
+video {
+  margin: 0;
+  padding: 0;
+}
+
+}
+
